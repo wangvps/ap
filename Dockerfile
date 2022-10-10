@@ -5,4 +5,4 @@ RUN apk add --no-cache git imagemagick libarchive-tools curl ffmpeg go \
     && echo 'BOT_TOKEN=${TOKEN} ./moe-sticker-bot' >> start.sh \
     && chmod +x start.sh
 
-CMD /start.sh
+CMD ./start.sh
